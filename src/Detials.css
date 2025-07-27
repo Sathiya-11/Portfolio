@@ -1,0 +1,37 @@
+
+.slanted-bg {
+  min-height:100vh;
+  background: linear-gradient(135deg, white 50%, blue 50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.btn{
+  background: orange;
+  color: white;
+}
+/* Default - Desktop */
+.profile-img {
+  width: 75%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Tablet (width ≤ 991px) */
+@media (max-width: 991px) {
+  .profile-img {
+    width: 100%;
+  }
+}
+
+/* Mobile & Small Tablets (width ≤ 768px) */
+@media (max-width: 768px) {
+  .profile-img {
+    width: 70%;
+    margin-left:-600px; /* 👈 Add desired padding */
+  }
+}
+

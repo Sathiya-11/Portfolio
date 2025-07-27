@@ -1,0 +1,39 @@
+
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.skill-card {
+  background: linear-gradient(135deg, white 50%, blue 50%);
+  color:black;
+  width: 300px;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card .btn {
+  color: black;
+  background-color: #fff;
+  border: none;
+}
+
+.skill-card .btn:hover {
+  background-color: #e2e6ea;
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    width: 90%;
+  }
+}

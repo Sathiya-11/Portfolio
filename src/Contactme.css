@@ -1,0 +1,14 @@
+.bg{
+    background: blue;
+}
+ .btn {
+  color: black;
+  background-color: #fff;
+  border: none;
+  margin-left: 150px;
+}
+
+ .btn:hover {
+    color: black;
+  background-color: #e2e6ea;
+}
