@@ -20,13 +20,13 @@ function Skills() {
             </Col>
              </Row>
       <Row className="d-flex justify-content-between align-items-center p-5">
-         <Col xs={12} md='auto'style={{paddingBlockEnd:"10px"}}><Image src={html} className='w-50' /><br/><b style={{paddingLeft:"30px"}}>HTML</b> </Col>
-        <Col xs={12} md='auto'style={{columnGap:"10px"}}><Image src={css} className='w-50'/> <br/><b style={{paddingLeft:"30px"}}>CSS</b> </Col>
-        <Col xs={12} md='auto'><Image src={js} className='w-50'/> <br/><b>JAVASCRIPT</b> </Col>
+         <Col className='text-center' xs={12} md='auto'style={{paddingBlockEnd:"10px"}}><Image src={html} className='w-50' /><br/><b style={{paddingLeft:"30px"}}>HTML</b> </Col>
+        <Col className='text-center' xs={12} md='auto'style={{columnGap:"10px"}}><Image src={css} className='w-50'/> <br/><b style={{paddingLeft:"30px"}}>CSS</b> </Col>
+        <Col className='text-center' xs={12} md='auto'><Image src={js} className='w-50'/> <br/><b>JAVASCRIPT</b> </Col>
       </Row>
        <Row className="d-flex justify-content-between align-items-center p-5">
          <Col xs={12} md='auto'style={{paddingLeft:"150px"}} className='react-img'><Image src={react} className='w-50'  /><br/><br/><b style={{paddingLeft:"10px"}}>REACT JS</b> </Col>
-        <Col xs={12} md='auto'style={{paddingRight:"150px"}}><Image src={bootstrap} className='w-75'/> <br/><b style={{paddingLeft:"20px"}}>BOOTSTRAP</b> </Col>
+        <Col  xs={12} md='auto'style={{paddingRight:"150px"}} className='boot-img'><Image src={bootstrap} className='w-50'/> <br/><b style={{paddingLeft:"20px"}}>BOOTSTRAP</b> </Col>
       </Row>
     </Container>
     </div>

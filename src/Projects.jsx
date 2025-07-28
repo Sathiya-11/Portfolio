@@ -22,7 +22,7 @@ function Project() {
       title: 'PORTFOLIO',
       text: 'A Personal Portfolio built with React JS and Bootstrap 5. Showcases my Projects,skills, and contact details in a clean and responsive layout.',
       buttonText: 'CLICK ME',
-      link:'https://sathiya-11.github.io/NBK-PROJECT/',
+      link:'https://Sathiya-11.github.io/NBK-Portfolio/',
     },
   ];
 
@@ -36,7 +36,7 @@ function Project() {
       <Row className="card-wrapper justify-content-center">
         {projectList.map((data, idx) => (
           <SkillCard key={idx} ProjectData={data} />
-        ))};
+        ))}
       </Row>
     </Container>
     </div>

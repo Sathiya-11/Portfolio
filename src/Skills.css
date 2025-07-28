@@ -25,6 +25,9 @@
 /* Mobile View (width ≤ 767px) */
 @media (max-width: 767px) {
   .react-img {
-    margin-left:-110px; /* You can increase it here if needed */
+    margin-left:-20px; /* You can increase it here if needed */
+  }
+  .boot-img{
+    margin-left:80px;
   }
 }
