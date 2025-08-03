@@ -1,7 +1,7 @@
 
 .slanted-bg {
   min-height:100vh;
-  background: linear-gradient(135deg, white 50%, blue 50%);
+  background: linear-gradient(135deg, white 50%,  #00A78E 50%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -9,29 +9,47 @@
   justify-content: center;
   text-align: center;
 }
-.btn{
-  background: orange;
-  color: white;
+
+.icon-link {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
 }
-/* Default - Desktop */
-.profile-img {
+
+.icon-link:hover {
+  transform: scale(1.2);
+}
+
+
+ .profile-img {
   width: 75%;
   height: auto;
   border-radius: 50%;
-}
+} 
 
-/* Tablet (width ≤ 991px) */
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
   .profile-img {
     width: 100%;
   }
-}
+} 
 
-/* Mobile & Small Tablets (width ≤ 768px) */
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
   .profile-img {
     width: 70%;
-    margin-left:-600px; /* 👈 Add desired padding */
-  }
+    margin-left:-600px;
+   }
+}
+
+ 
+
+ .animated-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.animated-item.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
