@@ -1,5 +1,7 @@
 
-
+body,html{
+  overflow-x: hidden;
+}
 .animated-item,
 .animated-navbar {
   opacity: 0;
